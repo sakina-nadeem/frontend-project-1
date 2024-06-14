@@ -1,0 +1,837 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    position: relative; /* Ensure body is the reference for absolute positioning */
+}
+
+.front-page {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(90deg, 
+    #1B1B1E 0%, 
+    #2b0809 20%,  
+    #220506 60%, 
+    #101030 80%, 
+    #530707 100%);
+    position: relative; /* For positioning the tablet image */
+}
+
+.second-page {
+    height: 100vh;
+    width: 100%;
+    background-color: white; /* or any other color you want */
+}
+
+.navbar {
+    color: white;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    gap: 2.5rem;  
+    font-family: "Poppins", sans-serif;
+}
+
+#btn1 {
+    border: none;
+    border: 1px solid white;
+    padding: 0.6rem;
+    border-radius: 4rem;
+    color: white;
+    background: none;
+    margin-top: -0.5rem;
+}
+
+.content {
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    margin-top: 2.5rem;
+}
+
+.gradient-text {
+    background: linear-gradient(90deg, #F7797D, #C471ED, #12C2E9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.heading-container {
+    line-height: 1.2; 
+}
+.heading-container h1 {
+    margin: 0; 
+}
+
+.content h1 {
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+
+#p {
+    margin-top: -0.8rem;
+}
+
+.text {
+    text-align: center;
+}
+
+p {
+    margin-top: 1.5rem;
+}
+
+#btn {
+    border: none;
+    border: 1px solid white;
+    padding: 0.8rem;
+    border-radius: 4rem;
+    color: white;
+    background: none;
+    margin-top: 0.3rem;
+}
+
+#img {
+    height: 2.3rem;
+    width: 2.3rem;
+}
+
+.lines {
+    text-align: center;
+    margin-top: 2rem; 
+}
+
+.tablet-img {
+    position: absolute;
+    top: 8.6%; /* Position halfway vertically */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 10; /* Ensure it appears above other elements */
+}
+
+#tablet {
+    border: 10px solid black;
+    border-radius: 2rem;
+    width: 900px; /* Adjust the width as needed */
+}
+
+/* #fb {
+    height: 2.7rem;
+    width: 2.7rem;
+    position: relative;
+    top: 10rem;
+    margin-left: -4rem;  
+}
+
+#LI {
+    height: 2.7rem;
+    width: 2.7rem;
+    position: relative;
+    top: 12rem;
+    left: 2rem;
+    
+}
+
+#line1 {
+    position: relative;
+    right: 2rem;
+    top: -1.7rem;
+    height: 11rem;
+}
+
+#line2 {
+    position: relative;
+    left: 3.7rem;
+    top: -1.7rem;
+    height: 11rem;
+} */
+
+
+.container {
+   position: relative;
+   top: -10rem;
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.content-left {
+    width: 70%;
+    margin-left: 7rem;
+}
+
+#explore {
+    color: #3FAA51;
+}
+
+.content-left h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.content-left p {
+    color: #8492A7;
+    font-size: 1.1rem;
+}
+
+.icon-heading {
+    display: flex;
+    align-items: center;
+}
+
+.icon-heading i {
+    margin-right: 10px; /* Adjust the space between icon and heading */
+}
+
+i {
+    color: #3FAA51;
+}
+
+#color {
+    color: #8492A7;
+    margin-top: -0.6rem;
+    margin-left: 2rem;
+    width: 80%;
+    font-size: 1.1rem;
+}
+
+.second-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -4rem;
+}
+
+.right {
+    width: 40%;
+}
+
+.right h1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.styled-vertical-line {
+    border-left: 3px solid #9f4fc7; 
+    height: 28rem; 
+    margin: 20px 0; 
+    margin-top: 3.6rem;
+}
+
+.linkedin-container {
+    display: flex;
+    align-items: center;
+     /* Set the background color */
+    padding: 10px; /* Add some padding around the icon and text */
+    border-radius: 5px; /* Optional: round the corners */
+}
+
+.linkedin-container i {
+    color: white; /* Set the icon color */
+    background-color: rgb(132, 119, 241);
+    padding: 5px;
+    border-radius: 0.4rem;
+    font-size: 24px; /* Adjust the size of the icon */
+    margin-right: 8px; /* Space between the icon and the text */
+}
+
+.linkedin-container span {
+    color: black; /* Set the text color */
+    font-size: 18px; /* Adjust the size of the text */
+    font-family: Arial, sans-serif; /* Set the font family */
+} 
+
+.email-icon {
+    color: red; /* Set the icon color to red */
+    font-size: 24px; /* Optional: adjust the size of the icon */
+}
+
+.email-icon span {
+    color: black; /* Set the text color */
+    font-size: 18px; /* Adjust the size of the text */
+    font-family: Arial, sans-serif; /* Set the font family */
+} 
+
+.email-icon i {
+    background-color: rgba(214, 207, 207, 0.979); 
+    padding: 5px;
+    border-radius: 0.4rem;
+    font-size: 24px; 
+    margin-right: 8px; /
+}
+
+.facebook-container i {
+    color: white; /* Set the icon color */
+    background-color: rgba(50, 28, 245, 0.966);
+    padding: 5px;
+    border-radius: 0.4rem;
+    font-size: 24px; 
+    margin-right: 8px; 
+}
+
+.facebook-container span {
+    color: black; 
+    font-size: 18px; 
+    font-family: Arial, sans-serif; 
+} 
+
+.right-side p {
+    color: #8492A7;
+    width: 70%;
+    margin-left: 3rem;
+    margin-top: -0.1rem;
+    font-size: 1.1rem;
+}
+
+.right-side {
+    margin-top: 0.3rem;
+    padding: 1.2rem;
+    padding-left: 3rem;
+}
+
+
+.third-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 8rem;
+}
+
+.left-side p {
+    color: #8492A7;
+    font-size: 1.2rem;
+}
+
+.left-side {
+    width: 70%;
+    padding: 2rem;
+    padding-left: 7rem;
+}
+
+.styled-vertical-line1 {
+    border-left: 3px solid #9f4fc7; 
+    height: 20rem; 
+    margin: 20px 0;   
+}
+
+.boxes p {
+    color: #8492A7;
+}
+
+#para {
+    margin-top: 0.7rem;
+}
+
+.left-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.6rem;
+    width: 40%;
+}
+
+.box {
+    color: black;
+    /* height: 9rem; */
+    width: 13rem;
+    background: #f7f1f1;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.box p {
+    color: #8492A7;
+}
+
+.fourth-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 10rem;
+    margin-left: 1rem;
+}
+
+.right-container {
+    width: 40%;
+}
+
+.right-container p {
+    color: #8492A7;
+    font-size: 1.2rem;
+
+}
+
+.containers {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns of equal width */
+    gap: 3rem; /* Gap between the items */
+    padding: 1rem; /* Padding around the container */
+    justify-content: center; /* Center the grid container horizontally */
+    align-content: center; /* Center the grid container vertically */
+    place-items: center; /* Center items within their grid cells */
+    margin-left: 1.4rem;
+}
+
+.flexing {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align items at the start */
+    align-items: flex-start; /* Align items at the start */
+    height: 14rem;
+    width: 22rem;
+    background: #f5f2f2;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.text-container {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px 10px 10px; 
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    margin-left: 30px; 
+}
+
+.text-container .icon-background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    border-radius: 6px;
+    background: linear-gradient(45deg, #F7797D, #C471ED, #12C2E9);
+    margin-right: 16px;
+}
+
+.text-container .material-symbols-outlined {
+    font-size: 32px;
+    color: white;
+}
+
+.text-container h3 {
+    margin: 0;
+    font-size: 24px; /* Increased font size */
+    color: black;
+}
+
+.flexing p {
+    margin-top: 8px;
+    padding: 1rem;
+    color: #8492A7;
+    font-size: 16px; 
+    line-height: 1.6; 
+}
+
+.explore {
+    color:#3FAA51;
+    font-size: 1.5rem;
+    margin-top: 15rem;
+    margin-bottom: 10px; /* Adjusted margin-bottom for spacing */
+    font-size: 18px;  
+    margin-left: 3rem;    
+}
+
+.styling {
+    font-size: 2rem;
+    margin-bottom: 5rem;
+    margin-top: 0; /* Reset default margin */
+    font-weight: bold;
+    margin-left: 3rem;  
+    font-weight: 800;
+
+}
+
+.icon-txt {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; 
+    margin-top: 0.6rem;
+}
+
+.icon-txt {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+    max-width: 600px;
+}
+
+.circle-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: linear-gradient(45deg, #F7797D, #C471ED, #12C2E9);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: white;
+    font-size: 24px;
+    margin-right: 10px; /* Adjust margin for spacing between icon and paragraph */
+}
+
+.circle-icon .material-symbols-outlined {
+    line-height: 40px; /* Should match the height for vertical centering */
+}
+
+.icon-txt p {
+    margin: 0; /* Remove default margin */
+    color: #8492A7;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.icon-heading-container {
+    display: flex;
+    align-items: center; /* Align items vertically centered */
+}
+
+.gradient-icon {
+    font-size: 40px; /* Increased font size */
+    font-weight: bold; /* Make the icon bold */
+    margin-right: 8px; /* Space between the icon and heading */
+    background: linear-gradient(45deg, #F7797D, #C471ED, #12C2E9); /* Gradient color */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.icon-heading-container h3 {
+    margin: 0; /* Remove any default margin from the heading */
+    font-size: 24px; /* Adjust the font size if needed */
+    color: black; /* Adjust the color if needed */
+}
+
+.white-cont {
+    background: #ffffff;
+    padding: 1.1rem;
+    width: 34rem;
+    margin-top: 2rem;
+    border-radius: 0.1rem;
+    box-shadow: 2px 2px 4px rgba(238, 235, 235, 0.952);
+}
+
+.explore-button {
+    padding: 12px 24px; /* Adjust padding as needed */
+    font-size: 16px; /* Adjust font size as needed */
+    font-weight: bold; /* Make text bold */
+    color: white; /* Text color */
+    background: linear-gradient(45deg, #F7797D, #C471ED, #12C2E9); /* Gradient background */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Cursor style */
+    transition: background 0.3s ease; 
+    margin-top: 2rem;
+}
+
+.explore-button:hover {
+    /* Optional: Change styles on hover */
+    opacity: 0.9; /* Reduce opacity slightly */
+}
+
+.explore-button:focus {
+    outline: none; /* Remove focus outline */
+}
+
+.fifth-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+    padding-top: 6.6rem;
+    background: #262626;
+    margin-top: 7rem;
+    width: 100%;
+}
+
+.txt {
+    color: #ffffff;
+}
+
+.icon-txt p {
+    color: #ffffffc4;
+}
+
+.testimonial-section {
+    text-align: center;
+    margin-top: 7rem;
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    background-color: #444444;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.testimonial-title {
+    color:#3FAA51;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: 3rem;
+}
+
+.testimonial-subtitle {
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.highlight {
+    color: #ff66ff;
+}
+
+.testimonial-card {
+    background-color: #ffffff;
+    margin: 0 auto;
+    width: 50rem;
+    height: 14rem;
+    padding: 30px;
+    padding-top: 3rem;
+    border-radius: 10px;
+    position: relative;
+    margin-top: 4rem;
+    color: black;
+    box-shadow: 6px 14px 18px rgba(20, 20, 20, 0.897);
+}
+
+.stars {
+    font-size: 24px;
+    color: #ffc107;
+    margin-bottom: 15px;
+}
+
+.testimonial-text {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.author-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.author-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.author-name {
+    font-size: 18px;
+    margin: 0;
+}
+
+.author-role {
+    color:#3FAA51;
+    margin: 0;
+}
+
+.profile-pictures {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-top: 3rem;
+}
+
+.profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+
+.form-container {
+    background-color: white;
+    padding: 30px;
+    padding-top: 7rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.form-container h1 {
+    text-align: center;
+    margin-bottom: 90px;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.highlight {
+    color: #ff66ff;
+    background: linear-gradient(to right, #ff66ff, #00ffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+input, ::placeholder {
+    color: #bbc4d1;
+}
+
+textarea {
+    resize: none;
+    height: 80px;
+}
+
+.submit-button {
+    width: 35%;
+    padding: 10px;
+    margin-top: 2rem;
+    margin-left: 9rem;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(to right, #ff66ff, #00ffff);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.submit-button:hover {
+    background: linear-gradient(to right, #00ffff, #ff66ff);
+}
+
+
+footer {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 20px;
+    width: 100%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-section {
+    margin-top: 3rem;
+    margin-bottom: 20px;
+    flex: 1;
+    min-width: 200px;
+    
+}
+
+.footer-section h2.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-section h2.logo span {
+    color: #00ff99;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.footer-section p {
+    line-height: 1.6;
+    color: #ADB7C2;
+    font-size: 1rem;
+    width: 18rem;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    color: #ADB7C2;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #ADB7C2;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #00ff99;
+}
+
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid #333;
+}
+
+.socials {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin-left: 4rem;
+}
+
+.socials li {
+    margin: 0 10px;
+}
+
+.socials li a {
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.socials li a:hover {
+    color: #00ff99;
+}
+
+.footer-section i {
+    color: #ADB7C2;
+
+}
+
+.socials i {
+    color: #ADB7C2;
+}
+
+.links {
+    margin-left: 11rem;
+}
+
+
+.explore {
+    margin-left: 4rem;
+}
+
+.styling {
+    margin-left: 4rem;
+    margin-bottom: 3rem;
+
+}
+
